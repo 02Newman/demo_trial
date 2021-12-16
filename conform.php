@@ -4,6 +4,7 @@ if(!empty($_POST["submit"])) {
 	$name = $_POST["userName"];
 	$email = $_POST["userEmail"];
 	$subject = $_POST["subject"];
+	$test = $_POST["none"];
 	
 
 	$toEmail = "kwabenanewman.com";
