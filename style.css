@@ -1,110 +1,108 @@
-
-   header {
-    background-color: white;
-    text-align: center;
-    font: cascade script;
-    } 
-  
-     body {
-    background-color: #141414 ;
-    text-align: center;
-    font: cascade script;
-    }
-  
-     h1 {
-    color: white;
-    text-align: center;
-    font: cascade script;
-    font-size:40px;
-    padding-top: 100px;
-    } 
-  
-     h2{ 
-     color:white;
-     text-align: center ;
-     font: cascade script;
-     font-size:35px;
-    }
-  
-     p {
-    color: #949494;
-    font: cascade script;
-    font-size:30px;
-    padding-bottom: 50px;
+    header {
+        background-color: rgb(10, 1, 1);
     }
     
-     ul {
-    color: #949494;
-    font: cascade script;
-    font-size:30px;
-    display: table;
-    margin: 0 auto;
-    padding-bottom: 50px;
+    body {
+        background-color: #141414;
     }
-  
-     footer {
-    color: #949494;
-    font: cascade script;
-    font-size:20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    }
-  
-     a:link {
-    color: #949494;
-    background-color: transparent;
-    text-decoration: underline;
-    }
-  
-     a:visited {
-    color: #949494 ;
-    background-color: transparent;
-    text-decoration: none;
-    }
-  
-     a:hover {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
-     }
     
-    input[type=text], select, textarea {
-    width: 50%; /* Full width */
-    padding: 10px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: white;
-    color: black;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: grey;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #141414 ;
-    margin: 0 auto;
-    padding: 20px;
-    width: 70%;
-
-  }
-
-  label {
-    color: #949494;   
-  }
-  
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 80px;
+        padding: 30px;
+    }
+    
+    h2 {
+        color: black;
+        text-align: center;
+        font: cascade script;
+        font-size: 35px;
+    }
+    
+    h3 {
+        color: white;
+        text-align: center;
+        font: cascade script;
+        font-size: 50px;
+    }
+    
+    p {
+        color: black;
+        font: cascade script;
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    ul {
+        color: black;
+        font-size: 20px;
+        display: table;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    label {
+        color: black;
+    }
+    
+    img {
+        max-width: 100%;
+        width: 200px;
+        height: 300px;
+        position: relative;
+    }
+    
+    .bg-overlay {
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 500px;
+        width: 500px;
+        padding-top: 100px;
+    }
+    
+    .gap100 {
+        padding: 70px 0px;
+    }
+    
+    .navbar-brand {
+        width: 150px;
+        font-size: 24px;
+    }
+    
+    .navbar-brand img {
+        height: 70%;
+        width: 70%;
+        float: left;
+        margin-left: 100px;
+    }
+    /* Style all font awesome icons */
+    
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+    /* Add a hover effect if you want */
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    /* Set a specific color for each brand */
+    /* Facebook */
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    /* Twitter */
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
