@@ -1,35 +1,69 @@
     header {
-        background-color: black;
+        position: cover;
+        top: 0;
+        width: 100%;
     }
     
     body {
         background-color: black;
     }
     
-    h1 {
+    .example2 {
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .example2 p {
         color: white;
-        text-align: center;
         font-size: 80px;
-        padding: 30px;
+        text-align: center;
+        animation: example2 5s ease-out;
+    }
+    
+    @keyframes example2 {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(0%);
+        }
     }
     
     h2 {
         color: black;
         text-align: center;
-        font: cascade script;
         font-size: 35px;
+    }
+    
+    .example3 {
+        height: 50px;
+        overflow: hidden;
+        position: relative;
     }
     
     h3 {
         color: white;
-        text-align: center;
-        font: cascade script;
         font-size: 50px;
+        padding-top: 50px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        line-height: 80px;
+        text-align: center;
+        animation: example3 5s ease-out;
+    }
+    
+    @keyframes example3 {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(0%);
+        }
     }
     
     p {
         color: black;
-        font: cascade script;
         font-size: 20px;
         padding: 20px;
     }
@@ -46,63 +80,53 @@
         color: black;
     }
     
-    img {
-        max-width: 100%;
-        width: 200px;
-        height: 300px;
-        position: relative;
-    }
-    
     .bg-overlay {
         background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center center;
-        color: #fff;
-        height: 500px;
-        width: 500px;
-        padding-top: 100px;
-    }
-    
-    .gap100 {
-        padding: 70px 0px;
+        height: 100vh;
+        width: 200px;
     }
     
     .navbar-brand {
-        width: 150px;
-        font-size: 24px;
-    }
-    
-    .navbar-brand img {
-        height: 70%;
-        width: 70%;
-        float: left;
-        margin-left: 100px;
-    }
-    /* Style all font awesome icons */
-    
-    .fa {
-        padding: 20px;
+        width: 200px;
         font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
     }
-    /* Add a hover effect if you want */
+    
+    .header-image {
+        height: 40%;
+        width: 40%;
+        float: left;
+    }
     
     .fa:hover {
         opacity: 0.7;
     }
-    /* Set a specific color for each brand */
-    /* Facebook */
     
     .fa-facebook {
         background: #3B5998;
         color: white;
     }
-    /* Twitter */
     
     .fa-twitter {
         background: #55ACEE;
         color: white;
+    }
+    
+    #navbarMenu {
+        float: right;
+    }
+    
+    footer a {
+        height: 10%;
+        width: 10%;
+    }
+    
+    .bg-primary {
+        background-color: #007aeb;
+        color: #fff;
+    }
+    
+    .bg-gray {
+        background-color: #C97B24;
     }
